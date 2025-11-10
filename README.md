@@ -254,5 +254,5 @@ Obrigado por conferir este projeto! Se gostou, não esqueça de deixar uma ⭐ n
 ---
 
 <div align="center">
-  <strong>🎻 Feito com paixão e código 🎻</strong>
+  <strong>🎻 <i>A vida é uma sinfonia tocada pela natureza.</i> 🎻</strong>
 </div>

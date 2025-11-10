@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinfonia das Strings | Desafio Palíndromo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de Background -->
+    <video id="background-video" autoplay muted loop playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de Tema -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <!-- Descrição do Desafio -->
+      <div class="challenge-header">
+        <h1>🎻 Sinfonia das Strings</h1>
+        <p class="challenge-description">
+          A cidade chuvosa ressoa seus segredos em frases refletidas pelas luzes, onde o(a) violinista urbano(a)
+          desvenda melodias de ida e volta — as frases palíndromas que ecoam perfeitas.
+        </p>
+        <div class="challenge-parts">
+          <div class="part"><strong>Parte 1:</strong> Verifica se a frase é um palíndromo perfeito</div>
+          <div class="part"><strong>Parte 2:</strong> Conta todas as substrings palíndromas (2+ caracteres)</div>
+        </div>
+      </div>
+
+      <!-- Input de Entrada -->
+      <div class="input-section">
+        <label for="input-frase">Digite sua frase musical:</label>
+        <input type="text" id="input-frase" placeholder="Ex: A base do teto desaba" autocomplete="off" />
+      </div>
+
+      <!-- Botões de Ação -->
+      <div class="button-section">
+        <button class="btn-decifrar" style="--clr: #00ff55">
+          <span>DECIFRAR</span>
+          <i></i>
+        </button>
+        <button class="btn-retornar" style="--clr: #ff0055">
+          <span>RETORNAR</span>
+          <i></i>
+        </button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div class="resultado-section" id="resultado-section">
+        <h2>🎼 Resultado da Análise</h2>
+        <div class="resultado-content" id="resultado-content">
+          <p class="placeholder">Aguardando entrada...</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
